@@ -78,7 +78,7 @@ public class DayListTest {
         int dayNumber = 6;
         String expectedResult = ("Friday");
 
-        String actualResult = ArrayListDay.getDay(-6);
+        String actualResult = ArrayListDay.getDay(-7);
 
         assertNotNull(actualResult, "Null was returned");
         assertEquals(expectedResult, actualResult);
